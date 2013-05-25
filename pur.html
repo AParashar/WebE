@@ -1,0 +1,157 @@
+<HTML>
+<HEAD>
+<TITLE>Welcome to PPARTH DISTRIBUTOR</TITLE>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script>
+
+	function checkrequired(which){
+	var pass=true
+	if (document.images){
+		for (i=0;i<which.length;i++){
+		var tempobj=which.elements[i]
+		if (tempobj.name.substring(0,8)=="required"){
+		if (((tempobj.type=="text"||tempobj.type=="textarea")&&tempobj.value=='')||(tempobj.type.toString().charAt(0)=="s"&&tempobj.selectedIndex==-1)){
+		pass=false
+		break
+	}
+	}
+	}
+	}
+	if (!pass){
+	alert("One or more of the required elements are not completed. Please complete them, then submit again!")
+	return false		
+	}	
+	else
+		return true
+	}
+	</script>
+
+
+
+
+
+</HEAD>
+<BODY>
+
+<TABLE WIDTH=706 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" class="main">
+	<TR>
+	 <td bgcolor="#000000" rowspan=100><img src="images/spacer.gif" width=1 alt=""></td>
+		<TD COLSPAN=11 WIDTH=706 HEIGHT=85>
+			<IMG SRC="images/100.jpg" WIDTH=706 HEIGHT=85 ALT=""></TD>
+			 <td bgcolor="#000000" rowspan=100><img src="images/spacer.gif" width=1 alt=""></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=11  WIDTH=706 HEIGHT=187>
+			<IMG SRC="images/2.jpg" WIDTH=706 HEIGHT=187 ALT=""></TD>
+	</TR>
+	<TD COLSPAN=11 class="bg5" WIDTH=706 HEIGHT=39 align="center">
+		<div class="text4">
+        <a href="index.html"><B>HOME </a> &nbsp&nbsp|&nbsp&nbsp  <a href="reg.html"> REGISTER </a>   &nbsp&nbsp|&nbsp&nbsp
+         <a href="login.html"> LOGIN</a>   &nbsp&nbsp|&nbsp&nbsp
+          <a href="medicine.html">MEDICINES OFFERED </a>   &nbsp&nbsp|&nbsp&nbsp
+           <a href="contactus.html"> CONTACT US</a>
+            
+           
+        </div>
+
+        </TD>
+	<TR>
+		<TD COLSPAN=4 valign="top" class="main" bgCOLOR="#CCD6E7">
+		<!-- left text-->
+		 <img src="images/LABEL1.jpg" width=202 height=42 alt="" border=0><br>
+		 <div class="text">   <br>
+<b>         29 Sept 2011:: </b> New medicine launched and avaliable for heart patient.
+           </div>
+                <img src="images/line.jpg" width=202 height=7 alt="" border=0>   <br>
+     	 		
+		
+		<!-- left text-->		
+</TD>
+		<TD COLSPAN=7 valign="top" class="rbg">
+		<!-- right text-->
+        <IMG SRC="images/r1.jpg" WIDTH=504 HEIGHT=42 ALT=""><br>
+       <div class="text"> <IMG SRC="images/r2.jpg" WIDTH=107 HEIGHT=152 ALT="" align="left">
+
+       <div class="text3"><center><br /><h2><b>Online dispatch of medicines</b></h2>
+	Lets change the way we live... !
+	<h3><u></u></h3></center>
+
+	
+	
+
+
+
+	<form method=post action="reg.asp">
+	<table border=0>
+	<tr>
+	<td>Shop Name:</td>
+	<td><input type=text name=name value=""></td>
+	</tr>
+	<tr>
+	<td>Address:</td>
+	<td><input type=text name=uname value=""></td>
+	</tr>
+	<tr>
+	<td>Medicine Company:</td>
+	<td><input type=text name=med value=""></td>
+	</tr>
+	<tr>
+	<td>Date of Dispatch:</td>
+	<td><input type=text name=date value=""></td>
+	</tr>
+	<td><br><input type=submit value=Submit></td>	
+	<td><br><input type=reset value=Reset></td>
+	</table>
+	</form>
+
+
+
+	</div><br>
+
+</div>
+
+		<!-- right text-->        		
+			</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=11 class="bg5" WIDTH=706 HEIGHT=39 align="center">
+		
+
+        </TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=11 class="bg6"  WIDTH=706 HEIGHT=59 align="center">
+         <div class="text5">
+         Copyright &copy; 2010-11 to. <br>All Rights Reserved.<br>
+         </div>
+        </TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=72 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=50 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=62 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=18 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=32 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=41 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=66 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=53 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=71 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=112 HEIGHT=1 ALT=""></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=129 HEIGHT=1 ALT=""></TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
